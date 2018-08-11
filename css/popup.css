@@ -140,7 +140,7 @@ a {
 }
 
 .logo {
-    display:block;
+    display:inline-block;
     height: auto; 
     width: auto; 
     max-width: 24px; 
