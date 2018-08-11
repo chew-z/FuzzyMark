@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'Roboto Mono';
+    font-style: italic;
+    font-weight: 300;
+    src: url('RobotoMono-LightItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Roboto Mono';
+    font-style: italic;
+    font-weight: 400;
+    src: url('RobotoMono-Italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 300;
+    src: url('RobotoMono-Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: url('RobotoMono-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 500;
+    src: url('RobotoMono-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 700;
+    src: url('RobotoMono-Bold.woff') format('woff');
+}
+
+body {
+    background-color: snow;
+    font-family: "Roboto Mono", monospace;
+}
+
+.results-box {
+    background-color: lightsteelblue;
+}
+
+.search-item {
+    font-weight: 500;
+    min-width: auto;
+    margin: 0.25em;
+}
+
+.search-item .title {
+    font-weight: 700;
+}
+
+.search-item .path {
+    float:left;
+    font-weight: 400;
+}
+
+.search-item .score {
+    display:inline-block;
+    float:left;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.search-item .date {
+    display:inline-block;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.search-item .url {
+}
+
+
+footer {
+    text-align: center;
+    margin-bottom: 5px;
+}
+a {
+    color: black;
+}
+
+.about.container {
+    padding: 2px;
+    font-family: monospace;
+}
+.about .row {
+    text-align: center;
+    padding: 1px;
+}
+.options {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.input {
+    float: right;
+    margin-bottom: 5px;
+    padding: 2px;
+}
+
+.input-text {
+    float: right;
+    font-stretch: expanded;
+    font-style: italic;
+    font-weight:normal;
+    text-align: right;
+}
+
+.input-option {
+    float: right;
+    font-weight:bold;
+    text-align: right;
+}
+
+.input-list {
+    float: right;
+    font-weight:bold;
+    text-align: right;
+}
+
+.input-select {
+    float: right;
+    font-weight:bold;
+    text-align: right;
+}
+
+.input-checkbox {
+    float: right;
+    font-weight:bold;
+    text-align: right;
+}
+
+.label {
+}
+
+.logo {
+    display:block;
+    height: auto; 
+    width: auto; 
+    max-width: 24px; 
+    max-height: 24px;
+    float: left;
+}
+
