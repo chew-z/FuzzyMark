@@ -7,3 +7,15 @@ Search through your bookmarks in Chrome with fuzzy search ([fuse.js](http://fuse
 - Download latest release
 - Add extension to Chrome [in developer mode](https://developer.chrome.com/extensions/getstarted#unpacked).
 - Start searching :mag:
+
+
+## TODO
+- Add options
+- Parametrize search
+  * weights
+  * minimum char length
+  * distance
+  * max pattern length
+  * case sensitive
+- sorting by date ?!
+- higlight matches
