@@ -92,12 +92,13 @@ chrome.bookmarks.getTree((results) => {
 
 $("#search-input").on("input", function(event) {
     const query = $(this).val();
-    const results = fuse.search(query);
-
-    if (results.length > 0) {
-        $("body").addClass("res-present");
-    } else {
-        $("body").removeClass("res-present");
+    if (query.length > 3) {
+        const results = fuse.search(query);
+        if (results.length > 0) {
+            $("body").addClass("res-present");
+        } else {
+            $("body").removeClass("res-present");
+        }
+        displayResults(results, ".results-box");
     }
-    displayResults(results, ".results-box");
 });
