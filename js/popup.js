@@ -102,3 +102,7 @@ $("#search-input").on("input", function(event) {
         displayResults(results, ".results-box");
     }
 });
+
+$(document).ready(function () {
+    $("#search-input").focus();
+});
